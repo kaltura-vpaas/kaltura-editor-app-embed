@@ -1,0 +1,32 @@
+html, body { 
+  height: 100%; 
+  width: 100%; 
+}
+body {
+  font-family: 'robotolight', 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  text-align:   center;
+  padding: 0;
+  margin: 0;
+  font-weight:  300;
+}
+.heroimg { width: 198px; height: 42px; }
+iframe.tablet {
+  min-height: 768px;
+  width: 1024px;
+}
+iframe.kmc {
+  width: 100%;
+  height: 672px;
+}
+iframe.kaf {
+  max-height: 645px;
+  min-height: 645px;
+  min-width: 1091px;
+  max-width: 1091px;
+}
+iframe {
+  border: none;
+  width: 1200px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+  height: 662px;
+}

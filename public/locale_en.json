@@ -1,0 +1,435 @@
+{
+    "common": {
+        "preview": "Preview",
+        "created_by": "Creator",
+        "last_update": "Last update",
+        "ok": "OK",
+        "done": "Done",
+        "delete": "Delete",
+        "cancel": "Cancel",
+        "continue": "Continue",
+        "error_message_title": "Oh snap!",
+        "dismiss": "Dismiss",
+        "reset_message": "Continuing will discard all your changes. \n This message will not display again",
+        "reset_message_title": " Reset Timeline?",
+        "leave_tab_confirmation": "You have unsaved changes, continue anyway?",
+        "open_left" : "Expand Panel",
+        "close_left" : "Collapse Panel",
+        "thumbnail_for_entry": "Thumbnail for media: {{name}}"
+    },
+    "tooltips": {
+        "timeline": {
+            "stream_selector": "Select Video",
+            "audio_levels": "Select Audio",
+            "actions": "Actions",
+            "zoom_in": "Zoom in",
+            "zoom_out": "Zoom out",
+            "zoom_slider": "Timeline Zoom",
+            "delete_segment": "Delete",
+            "fade": "Fade In/Out",
+            "fade_in": "Fade In",
+            "fade_out": "Fade Out",
+            "reset": "Reset",
+            "set_out": "Set Out",
+            "set_in": "Set In",
+            "split": "Split",
+            "undo": "Undo",
+            "redo": "Redo"
+        },
+        "help": {
+            "message": "Go to User Guide"
+        },
+        "player": {
+            "preview": "Preview Work",
+            "jump_to_start": "Jump to start",
+            "jump_to_end": "Jump to end",
+            "play": "Play",
+            "pause": "Pause"
+        }
+    },
+    "index": {
+        "init": "Initializing...",
+        "entry_in_replacement_message": "Media is still being saved. Please wait or try again later."
+    },
+    "convert": {
+        "wait": "Please wait while media is processing"
+    },
+    "error": {
+        "resolution_not_supported": "The editor is not supported on this screen size ",
+        "orientation_not_supported": "To view the Editor, please adjust your device to Landscape",
+        "conv_fail": "Entry conversion failed, cannot create quiz.",
+        "live_clipping_not_ready": "Please be patient, media will soon be ready",
+        "general_err": "An error has occurred."
+    },
+    "audio_levels": {
+        "show": "Show Audio",
+        "hide": "Hide Audio"
+    },
+    "quiz": {
+        "quiz" : "QuizER",
+        "m_details": "Details",
+        "m_experience": "Experience",
+        "m_scores": "Scores",
+        "done" : "Done",
+        "revert": "Revert to defaults",
+        "apply": "Apply",
+        "save": "Save",
+        "delete": "Delete",
+        "remove": "Remove",
+        "error": "Error",
+        "ok": "OK",
+        "cancel": "Cancel",
+        "close": "Close",
+        "menu": "Menu",
+        "goto_quiz": "Edit Quiz",
+        "goto_entry": "Go to Media Page",
+        "number_of_questions": "Total Q:",
+        "welcome" : {
+            "intro" : "Press <strong>Start</strong> to create a new quiz.<br/>A copy of the media will be created and the original media will stay intact.",
+            "start" : "Start"
+        },
+        "general": {
+            "name": "Quiz Name",
+            "name_ph": "Insert Quiz Name",
+            "name_missing": "Please Insert Quiz Name",
+            "default_name": "{{value}} - Quiz",
+            "welcome": "Welcome Message",
+            "welcome_ph": "Insert Welcome Message",
+            "welcome_missing": "Please Insert Welcome Message",
+            "welcome_txt": "In this video, you will be given a Quiz. Good Luck!",
+            "invideo_tip": "Instructions",
+            "invideo_hb": "The following text will be displayed:",
+            "invideo_txt": "\"All questions must be answered. The quiz will be submitted at the end.\"",
+            "show_welcome_page": "Show Welcome Page",
+            "questions_list": "Allow Download of Questions List",
+            "questions_list_hb": "Allow viewers to download the list of questions before starting the quiz"
+        },
+        "exp": {
+            "edit_answer": "Allow Answers Change",
+            "edit_answer_hb": "Allow viewers to change their answers before submitting the quiz.",
+            "skip": "Skip For Now",
+            "skip_hb": "Your viewers will be able to skip a question and come back to answer it later",
+            "banSeek": "No seeking forward",
+            "banSeek_hb": "Users will not be able to use the seek bar to navigate the video past the point they viewed.",
+            "do_not_allow_skip":"Do not Allow Skip",
+            "do_not_allow_skip_hb":"Users must submit an answer before proceeding forward.",
+            "allow_skip":"Allow Skip",
+            "allow_skip_hb":"Users will be presented with the 'skip for now' button.",
+            "alert_text_title":"Alert Text",
+            "alert_txt_default":"Seeking was disabled on this video.",
+            "alert_text_ph":"Set a message for the end users when trying to seek"
+        },
+        "score": {
+            "title": "Upon Submission:",
+            "no_score": "Do Not Show Scores",
+            "no_score_hb": "A 'Thank You' message will display after submitting the quiz.",
+            "yes_score": "Show Scores",
+            "yes_score_hb": "Your viewers will see the quiz score page after the quiz is submitted.",
+            "allow_retake": "Allow Multiple Attempts",
+            "allow_retake_hb": "Allow viewers to take the quiz more than once.",
+            "retakes": "Number of attempts (2-100)",
+            "retakes_placeholder": "For unlimited retake options, select ‘0’",
+            "retakes_scoretype": "Quiz Score to Keep",
+            "retake_type_highest" : "Highest Attempt",
+            "retake_type_lowest" : "Lowest Attempt",
+            "retake_type_latest" : "Latest Attempt",
+            "retake_type_first" : "First Attempt",
+            "retake_type_average" : "Average of all Attempts",
+            "feedback": "Include Answers",
+            "feedback_hb": "Your viewers will be able to see correct/incorrect answers"
+        },
+        "ques": {
+            "title": "How to Create a Question",
+            "txt": "While watching the video, press pause where you want a question.<br/>Press the '+' button to add a question and related answers</br>Don’t forget to shuffle the answers!</br>You can add and edit as much as you like"
+        },
+        "questionmenu": {
+            "hint": "Hint",
+            "why": "Why"
+        },
+        "question": {
+            "chose_question_ph": "Choose a Question type:",
+            "question_open-question_txt_ph": "Add an Open Question Here",
+            "open_question_description": "Free text answer",
+            "open_question": "Open Question",
+            "reflection_point_txt_ph": "Add a Reflection Point Here",
+            "reflection_point": "Reflection Point",
+            "reflection_point_description": "Video pause with text",
+            "true-false": "True/False",
+            "true-false_description": "Questions with the choice of True or False",
+            "multi-answers": "Multiple Choice",
+            "multi-answers_description": "Question with only one correct answer",
+            "question_txt_ph": "Add a Question Here",
+            "question_reflection_point_txt_ph": "Add reflection point text here",
+            "correct_txt_ph": "Add the CORRECT Answer Here",
+            "wrong_txt_ph": "Add Additional Answer Here",
+            "hint": "Add Question Hint",
+            "hint_ph": "Add Question Hint Here",
+            "explanation": "Add Correct Answer Rationale",
+            "explanation_ph": "Add Rationale Here",
+            "unsaved_warn": "Are you sure you want to proceed? Any unsaved changes will be lost",
+            "missing_ans": "Please set at least 2 answers",
+            "missing_ques": "Please fill in a question",
+            "empty_ans": "There is an empty answer box, please fill it in",
+            "question_number": "Question {{order}}",
+            "delete_warn": "Are you sure you want to delete this question?",
+            "contact_admin_tooltip": "Please contact your admin to enable this feature"
+        },
+        "timeline": {
+            "question_number": "Question {{order}}"
+        }
+    },
+    "keyboard": {
+        "title": "Help",
+        "sub_title": "Accessibility shortcuts",
+        "manual_link_text": "Go to User Manual",
+        "help": "Help",
+        "common": {
+            "label": "Common"
+        },
+        "saving": {
+            "label": "Saving",
+            "done": "Done",
+            "save_question": "Save question",
+            "save": "Save",
+            "save_as": "Save a copy",
+            "undo": "Undo",
+            "redo": "Redo"
+        },
+        "layout": {
+            "label": "Layout",
+            "toggle_left_panel": "Open/Close left panel",
+            "show_tooltips": "Show tooltips"
+        },
+        "player": {
+            "label": "Player",
+            "toggle": "Toggle Play / Pause",
+            "preview": "Preview",
+            "go_to_time": "Go To Time",
+            "jump_to_start": "Jump to start of selected range",
+            "jump_to_end": "Jump to end of selected range",
+            "browse_left": "Browse questions types left",
+            "browse_right": "Browse questions types right"
+        },
+        "hotspots": {
+            "label": "Hotspots",
+            "deselect": "Deselect hotspot"
+        },
+        "edit": {
+            "label": "Edit",
+            "add_url": "Add Link"
+        },
+        "timeline": {
+            "label": "Timeline",
+            "delete_segment": "Delete segment",
+            "split": "Split segment",
+            "small_jump_forward": "Jump forward by one second",
+            "big_jump_forward": "Jump forward by ten seconds",
+            "small_jump_backward": "Jump backward by one second",
+            "big_jump_backward": "Jump backward by ten seconds",
+            "next_cue_point": "Jump to next cue point",
+            "previous_cue_point": "Jump to previous cue point",
+            "select_next_segment": "Select next segment",
+            "select_previous_segment": "Select previous segment",
+            "zoom_in": "Zoom In the timeline",
+            "zoom_out": "Zoom Out the timeline",
+            "set_in": "Set in point",
+            "set_out": "Set out point",
+            "reset": "Reset"
+        }
+    },
+    "home": {
+        "main_title": "Media Editor",
+        "title_subtext": "To create engaging content such as interactive quizzes, clips and trimmed videos easily.",
+        "media_details": "Media",
+        "media_name": "Name",
+        "media_creator": "Creator",
+        "media_created_at": "Creation Date",
+        "media_type": "Type",
+        "media_duration": "Duration"
+    },
+    "editor": {
+        "save": "Save",
+        "save_as": "Save a Copy",
+        "save_as_submitted_quiz": "This quiz was previously submitted, therefore cannot be changed. You are allowed to create a copy",
+        "save_as_ongoing_live": "The live recording is ongoing has not been finalized yet. You can save a copy or try again later",
+        "title": "Video Editor",
+        "media_details": "Media",
+        "exit_dialog": {
+            "message": "Are you sure you want to exit?",
+            "confirm": "I'm sure",
+            "header": "Wait"
+        },
+        "total_time_text": "Total",
+        "save_as_dialog": {
+            "header": "Save a Copy of the Media",
+            "enter_name" : "Enter a title for the new media",
+            "success_header": "Success",
+            "message": "",
+            "clip_of_entry": "Clip of {{entryName}}",
+            "create": "Create"
+        },
+        "split_not_supported": "Oops. It seems that you have used the Split tool. Splitting is not supported while the live recording has not been finalized. Please try again later",
+        "save_and_save_as_error": {
+            "title": "Attention",
+            "message": "Oops, It appears you are trying to create a zero-length media. Please try again"
+        },
+        "save_dialog": {
+            "header": "Save",
+            "override_message": "You are about to permanently change this media entry.<br><strong>This action cannot be undone.</strong><br>This Process may take a while.",
+            "save_warn": "Are you sure you want to continue?",
+            "save": "Save",
+            "save_in_progress": "Saving is in progress... Please be patient.",
+            "save_complete": "Media was successfully saved.",
+            "save_complete_no_auto_approved": "Note that your media must be approved by the application administrator. Until the version is approved, the original version will be displayed."
+        },
+        "pre_activate_message_title": "Warning",
+        "cancel": "Cancel",
+        "conversion_error_message": "An error occurred while trying to convert the media. Please try again later.",
+        "trimming_failed_error_message": "An error occurred while trying to save the media. Please try again later."
+    },
+    "timeline": {
+        "frames_error_message": "* Frames preview are not supported for this type of media"
+    },
+    "player": {
+        "go_to_time_title": "Go to a time",
+        "protected_zone": "Can't add hotspot on the protected zone"
+    },
+    "advertisements": {
+        "sidebarTitle":"Advertisements",
+        "retry": "Retry",
+        "cancel": "Cancel",
+        "ok": "OK",
+        "save": "Save",
+        "add": "Add",
+        "apply":"Apply",
+        "delete": "Delete",
+        "discard": "Discard",
+        "chooseAdType": "Choose an Ad type:",
+        "totalAds": "Total Ads:",
+        "unsaved_warn": "Are you sure you want to proceed? Any unsaved changes will be lost",
+        "moreMenu": {
+            "downloadFile": "Download to file",
+            "uploadSample": "Upload from file",
+            "downloadSample": "Download sample"
+        },
+        "adDetails":{
+            "name": "Ad Name",
+            "selectProvider": "Select Provider",
+            "providerName": "Provider Name",
+            "url": "URL",
+            "duration": "Duration",
+            "overlayDescription": "<div>Overlay</div>While the entry is playing, a banner will appear on the screen.",
+            "videoDescription": "<div>Video Ad</div>The entry will stop playing, the ad will play, and then the entry will resume.",
+            "availableProviders": {
+              "vast": "VAST",
+                "other": "Other"
+            },
+            "errors": {
+                "nameRequired": "Name is required",
+                "urlRequired": "URL is required",
+                "urlInvalid": "URL is invalid",
+                "durationExceeds": "Ad end-time exceeds entry duration"
+            }
+        },
+        "errors": {
+            "entryLoadingFailed": "An error occurred while trying to load entry.",
+            "adsLoadingFailed": "An error occurred while trying to load advertisements for current entry.",
+            "unableToLoad": "Unable to load advertisements for current entry, please verify selected entry.",
+            "unableToAddAd": "Unable to add advertisement for selected time frame.",
+            "general": "An error occurred, please contact support",
+            "savingFailed":"An error occurred while trying to save advertisements.",
+            "uploadFailed":"An error occurred while trying to read advertisements XML file.",
+            "downloadFile": "Unable to perform file download for entry",
+            "loadAdDetailsFailed": "An error occurred while trying to load selected Ad details"
+        }
+    },
+    "hotspots": {
+        "title": "Hotspots",
+        "edit_title": "Edit Hotspot",
+        "pre_activate_message": "Sorry! Hotspots aren't currently available for the current media.",
+        "save": "Save",
+        "invalid_time": "Invalid time",
+        "invalid_time_input": "Provided time is invalid",
+        "invalid_time_exceed_entry_length": "Provided time should be less than the entry length",
+        "timeline": {
+            "total": "Total:"
+        },
+        "basic_editor": {
+            "invalid_url_message": "Invalid URL Format",
+            "url_radio_label": "URL",
+            "time_link": "Time in this video",
+            "time_label": "Time",
+            "link_options_label": "Go to",
+            "url_input_label": "Link to",
+            "label_input_label": "Text",
+            "label_input_placeholder": "Text Here...",
+            "invalid_label_message": "Required",
+            "url_input_placeholder": "Type Url",
+            "advanced_settings_button": "Advanced Settings"
+        },
+        "advanced_editor": {
+            "timeline_section": {
+                "header": "Timeline",
+                "start_time": "Start Time",
+                "end_time": "End Time",
+                "time_value_invalid": "Provided time is invalid",
+                "start_time_later_than_end_time": "Start time should be earlier than end time",
+                "end_time_earlier_than_start_time": "End time should be later than start time",
+                "end_time_later_than_entry_length": "End time should be earlier than entry length"
+            },
+            "styles_section": {
+                "header": "Styles",
+                "edit_css": "Edit CSS",
+                "position": "Position",
+                "size": "Size",
+                "width": "Width",
+                "height": "Height",
+                "text_and_color": "Text Color & Style",
+                "background_color": "Background Color",
+                "text_size": "Text Size",
+                "roundness": "Roundness"
+            }
+        },
+        "delete_message": {
+            "confirm": "Delete Hotspot",
+            "text": "Are you sure you want to delete this hotspot?",
+            "title": "Delete Hotspot"
+        },
+        "list": {
+            "label_empty_message": "<Blank>"
+        },
+        "panel": {
+            "noItems" : {
+                "text": "No hotspots for this video"
+            },
+            "invalidUrl" : {
+                "text": "Invalid URL"
+            },
+            "jumpToTime": {
+                "text": "Jump to time"
+            },
+            "addHotspotsButton": {
+                "text": "Add Hotspot"
+            },
+            "showGridButton": {
+                "text": "Show Grid"
+            },
+            "menu": {
+                "tooltip": "More",
+                "duplicateLabel": "Duplicate",
+                "editLabel": "Edit",
+                "deleteLabel": "Delete"
+            }
+        },
+        "player": {
+            "addHotSpot": "Add hotspot here"
+        },
+        "errors": {
+            "retryButtonLabel": "Retry",
+            "reloadButtonLabel": "Reload",
+            "loadErrorText": "Hotspots are not loading",
+            "saveErrorText": "Changes were not saved, please try again",
+            "postSaveErrorText": "Something went wrong, please reload the page"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "serviceUrl": "https://cdnapisec.kaltura.com", 
+    "apiSecret": "Admin Secret from KMC - https://kmc.kaltura.com/index.php/kmcng/settings/integrationSettings",
+    "partnerId": 000000, //Partner ID from https://kmc.kaltura.com/index.php/kmcng/settings/integrationSettings 
+    "userId": "tester@kaltura.com", //the user ID of the user that is now editing this entry (critical for ownership, analytics and entitlements)
+    "userDisplayName": "John Doe", //the user display name to show on the editor
+    "sessionDuration": 86400, //time to live of Kaltura Session, in seconds
+    "entryId": "1_asdsfss", //the test entryId to load in the editor
+    "referenceId": "unique_custom_id", //3rd party system ID to match with the new clip that will be created
+    "uiConfId": 000000 //Player (Universal Studio) ID from https://kmc.kaltura.com/index.php/kmcng/studio/v2
+}

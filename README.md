@@ -14,8 +14,8 @@ To learn about the Kaltura Editor capabilities, watch the [Kaltura Editor traini
 1. Copy `config.template.json` to `config.json`
 1. Open `config.json`, configure according to the instructions and remove all comments
 1. Run:
-   * On Mac/Linux - `DEBUG=kaltura-editor-nodejs:* npm start`
-   * Windows - `set DEBUG=kaltura-editor-nodejs:* & npm start`
+   * On Mac/Linux - `DEBUG=kaltura-editor-app-embed:* npm start`
+   * Windows - `set DEBUG=kaltura-editor-app-embed:* & npm start`
 1. Load http://localhost:3000/ in your browser to access the app.
 
 ## How this code works?
@@ -24,6 +24,7 @@ To learn about the Kaltura Editor capabilities, watch the [Kaltura Editor traini
 * using the ID of the role, a new USER KS is created, with specific video and edit permissions to the entry that is being edited
 * The Kaltura Editor iframe is rendered (see `index.pug` view)
 * in the view page, you'll find all the JavaScript handlers for loading the Kaltura Editor iframe, and communicating with it via postMessage API
+* Refer to the below guide, and inline docs (inside views/index.pug) for the editor app iframe API and configs
 
 # The Kaltura Editor Application Integration Guide
 
