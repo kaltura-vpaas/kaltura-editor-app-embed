@@ -4,8 +4,9 @@ Power you apps with in-browser video editing capabilities to ease and simplify t
 This repo is a reference NodeJS app that demonstrates how to embed the Kaltura Editor application in a hosting NodeJS app.  
 This is a very basic node express based app (generated using [Express Generator](https://expressjs.com/en/starter/generator.html)).  
 
-Features include; Enable end-users to create video clips, Support for cue-points, captions and multi-stream content, Audio graph for detecting silent areas, Trim long videos cutout from the middle, Compatible with desktop and tablet browsers, Easy to use and accessibility minded, Customizable with CSS, Easy to integrate into any web-app using secure iframe
-API, Create and edit Interactive In-Video Quizzes, Use to set cue points for dynamic ads, Create hotspots overlays that drive action and more.
+![Kaltura Editor App](https://github.com/kaltura-vpaas/kaltura-editor-app-embed/raw/master/keascreenshot.png?raw=true)
+
+**Kaltura Editor App features include**; Enable end-users to create video clips, Support for cue-points, captions and multi-stream content, Audio graph for detecting silent areas, Trim long videos cutout from the middle, Compatible with desktop and tablet browsers, Easy to use and accessibility minded, Customizable with CSS, Easy to integrate into any web-app using secure iframe API, Create and edit Interactive In-Video Quizzes, Use to set cue points for dynamic ads, Create hotspots overlays that drive action and more.
 To learn about the Kaltura Editor capabilities, watch the [Kaltura Editor training videos](https://learning.mediaspace.kaltura.com/category/Video+Features%3EVideo+Editing+Tool/80077851).  
 
 ## To run
