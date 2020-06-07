@@ -335,9 +335,11 @@ if (postMessageData.messageType === 'kea-go-to-media') {
 }
 ```
 
-### 'kea-{tab-name}-tab-loaded'
+### `kea-{tab-name}-tab-loaded`
 
-This message will be called when the user switches to a different tab in the editor app. This is useful when hosting app needs to be more contextual. Each tab will fire an event once loaded, for example:  
+This message will be called when the user switches to a different tab in the editor app. This is useful when hosting app needs to be more contextual. Replace `{tab-name}` with the tab name you're interested in.
+
+Example:
 
 ```javascript
 window.addEventListener('message', function(e) {
@@ -363,7 +365,7 @@ Supported events:
 * `kea-hotspots-tab-loaded`
 
 
-### 'kea-do-save'  
+### `kea-do-save`
 
 Can be sent by the hosting application when one wants to initiate a **Save** dialog to the user and start the saving process (supported tabs: Ads, Hotspots and Editor). In the Editor the Save action corresponds to the Trimming operation.
 
@@ -390,7 +392,7 @@ window.addEventListener('message', function(e) {
 })
 ```
 
-### 'kea-do-save-as'
+### `kea-do-save-as`
 
 Can be sent by the hosting application when one wants to initiate a **Save As** dialog to the user and start the new video clip process (supported tab: Editor). In the Editor the Save action corresponds to the Clipping operation.
 This action also allows passing a reference ID that will be added to the cloned entry as part of the response. 
