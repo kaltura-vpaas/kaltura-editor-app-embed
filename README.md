@@ -1,6 +1,6 @@
 # Kaltura Editor Embed Sample App
 
-Power you apps with in-browser video editing capabilities to ease and simplify the creation and sharing of video inside your applications.  
+Power your apps with in-browser video editing capabilities to ease and simplify the creation and sharing of video inside your applications.  
 This repo is a reference NodeJS app that demonstrates how to embed the Kaltura Editor application in a hosting NodeJS app.  
 This is a very basic node express based app (generated using [Express Generator](https://expressjs.com/en/starter/generator.html)).  
 
